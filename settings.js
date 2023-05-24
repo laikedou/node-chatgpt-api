@@ -39,9 +39,9 @@ export default {
     // Options for the Bing client
     bingAiClient: {
         // Necessary for some people in different countries, e.g. China (https://cn.bing.com)
-        host: '',
+        host: 'https://cn.bing.com',
         // The "_U" cookie value from bing.com
-        userToken: '',
+        userToken: '1QCXvMU8501mKwePGhjHxRqd3XRqYvk_EOMvprtOsqsoJJlAIl1B4EABqncA_KdEMc3iIthCruZdTtmg2KTkYBvjV2UesHDmeEhXeUybMBAaPqct9y6lNxY4weNE7YU-05IAuxICYGf33j3KMJFRSXlms-ArA5ld4GVoPUv5j76aBqGXZ1iOw39M_c5SXiyfBIcHCE85gBAEBm64wf7eLQQ',
         // If the above doesn't work, provide all your cookies as a string instead
         cookies: '',
         // A proxy string like "http://<ip>:<port>"
@@ -54,7 +54,7 @@ export default {
         // Warning: This will expose your access token to a third party. Consider the risks before using this.
         reverseProxyUrl: 'https://bypass.churchless.tech/api/conversation',
         // Access token from https://chat.openai.com/api/auth/session
-        accessToken: '',
+        accessToken: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1UaEVOVUpHTkVNMVFURTRNMEZCTWpkQ05UZzVNRFUxUlRVd1FVSkRNRU13UmtGRVFrRXpSZyJ9.eyJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJjaGF0c2l5dWFuQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlfSwiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS9hdXRoIjp7InVzZXJfaWQiOiJ1c2VyLVFUVVpMajljOVBFQ2RTbTZoa1ZTQzVOUiJ9LCJpc3MiOiJodHRwczovL2F1dGgwLm9wZW5haS5jb20vIiwic3ViIjoiZ29vZ2xlLW9hdXRoMnwxMDA1NDIwNzQ2OTc3NzQxMDg3ODciLCJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSIsImh0dHBzOi8vb3BlbmFpLm9wZW5haS5hdXRoMGFwcC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNjg0NDcwNDI2LCJleHAiOjE2ODU2ODAwMjYsImF6cCI6IlRkSkljYmUxNldvVEh0Tjk1bnl5d2g1RTR5T282SXRHIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBtb2RlbC5yZWFkIG1vZGVsLnJlcXVlc3Qgb3JnYW5pemF0aW9uLnJlYWQgb3JnYW5pemF0aW9uLndyaXRlIn0.lQtbNDvEgLW3FceWLPKTo94H4KY_b1PxO6z6nMVcvswcUvyw7rz_3R-QtL7v0fEMpTOUv03AIkKuBG0MZN0_uCAFg5yJI9dWgxBoK4yLIzqu5ZMNDXXcvTSRtuqo2K799GKY8mX9D7IZ3fhWCbVuXTivDJLvPwNegr4e0-9mSu4sZRfzaSlg_MoN6bgiBTHi_UqloIkDdPRR_k1b1H2cvj-fEqbIpkSGTpar3EKQqffjyGvXpEQay8GEA2PmkA-97VYQZ2n_bSw9XkiUKWynWAnF6CVphqVZjYQkuLNwQMCwucbsKKQ2i8pndU7X-HQiZSJuzyGR_9vkSi4MSyQOHA',
         // Cookies from chat.openai.com (likely not required if using reverse proxy server).
         cookies: '',
         // A proxy string like "http://<ip>:<port>"
