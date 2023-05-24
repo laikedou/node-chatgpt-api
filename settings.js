@@ -41,7 +41,7 @@ export default {
         // Necessary for some people in different countries, e.g. China (https://cn.bing.com)
         host: 'https://cn.bing.com',
         // The "_U" cookie value from bing.com
-        userToken: '1QCXvMU8501mKwePGhjHxRqd3XRqYvk_EOMvprtOsqsoJJlAIl1B4EABqncA_KdEMc3iIthCruZdTtmg2KTkYBvjV2UesHDmeEhXeUybMBAaPqct9y6lNxY4weNE7YU-05IAuxICYGf33j3KMJFRSXlms-ArA5ld4GVoPUv5j76aBqGXZ1iOw39M_c5SXiyfBIcHCE85gBAEBm64wf7eLQQ',
+        userToken: '',
         // If the above doesn't work, provide all your cookies as a string instead
         cookies: '',
         // A proxy string like "http://<ip>:<port>"
