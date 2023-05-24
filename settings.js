@@ -54,7 +54,7 @@ export default {
         // Warning: This will expose your access token to a third party. Consider the risks before using this.
         reverseProxyUrl: 'https://bypass.churchless.tech/api/conversation',
         // Access token from https://chat.openai.com/api/auth/session
-        accessToken: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1UaEVOVUpHTkVNMVFURTRNMEZCTWpkQ05UZzVNRFUxUlRVd1FVSkRNRU13UmtGRVFrRXpSZyJ9.eyJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJjaGF0c2l5dWFuQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlfSwiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS9hdXRoIjp7InVzZXJfaWQiOiJ1c2VyLVFUVVpMajljOVBFQ2RTbTZoa1ZTQzVOUiJ9LCJpc3MiOiJodHRwczovL2F1dGgwLm9wZW5haS5jb20vIiwic3ViIjoiZ29vZ2xlLW9hdXRoMnwxMDA1NDIwNzQ2OTc3NzQxMDg3ODciLCJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSIsImh0dHBzOi8vb3BlbmFpLm9wZW5haS5hdXRoMGFwcC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNjg0NDcwNDI2LCJleHAiOjE2ODU2ODAwMjYsImF6cCI6IlRkSkljYmUxNldvVEh0Tjk1bnl5d2g1RTR5T282SXRHIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBtb2RlbC5yZWFkIG1vZGVsLnJlcXVlc3Qgb3JnYW5pemF0aW9uLnJlYWQgb3JnYW5pemF0aW9uLndyaXRlIn0.lQtbNDvEgLW3FceWLPKTo94H4KY_b1PxO6z6nMVcvswcUvyw7rz_3R-QtL7v0fEMpTOUv03AIkKuBG0MZN0_uCAFg5yJI9dWgxBoK4yLIzqu5ZMNDXXcvTSRtuqo2K799GKY8mX9D7IZ3fhWCbVuXTivDJLvPwNegr4e0-9mSu4sZRfzaSlg_MoN6bgiBTHi_UqloIkDdPRR_k1b1H2cvj-fEqbIpkSGTpar3EKQqffjyGvXpEQay8GEA2PmkA-97VYQZ2n_bSw9XkiUKWynWAnF6CVphqVZjYQkuLNwQMCwucbsKKQ2i8pndU7X-HQiZSJuzyGR_9vkSi4MSyQOHA',
+        accessToken: '',
         // Cookies from chat.openai.com (likely not required if using reverse proxy server).
         cookies: '',
         // A proxy string like "http://<ip>:<port>"
